@@ -56,11 +56,7 @@
     <scope>compile</scope>
 </dependency>
 
-  	<dependency>
-  		<groupId>CUCUMBER_FINAL</groupId>
-  		<artifactId>CUCUMBER_FINAL</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+ 
   </dependencies>
   
 </project>
