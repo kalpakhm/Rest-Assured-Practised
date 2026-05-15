@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-01T20:46:30 IST" name="Default suite" finished-at="2026-05-01T20:46:32 IST" duration-ms="2093">
+  <suite started-at="2026-05-15T16:09:20 IST" name="Default suite" finished-at="2026-05-15T16:09:23 IST" duration-ms="2933">
     <groups>
     </groups>
-    <test started-at="2026-05-01T20:46:30 IST" name="Default test" finished-at="2026-05-01T20:46:32 IST" duration-ms="2093">
-      <class name="parsingResponseJSONdata.Parsing_JsonObject">
-        <test-method signature="JSONObject_total()[pri:3, instance:parsingResponseJSONdata.Parsing_JsonObject@185a6e9]" started-at="2026-05-01T20:46:30 IST" name="JSONObject_total" finished-at="2026-05-01T20:46:32 IST" duration-ms="2061" status="PASS">
+    <test started-at="2026-05-15T16:09:20 IST" name="Default test" finished-at="2026-05-15T16:09:23 IST" duration-ms="2933">
+      <class name="fileUploadDownload.DownloadFile">
+        <test-method signature="fileDownload()[pri:0, instance:fileUploadDownload.DownloadFile@29626d54]" started-at="2026-05-15T16:09:20 IST" name="fileDownload" finished-at="2026-05-15T16:09:23 IST" duration-ms="2916" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- JSONObject_total -->
-      </class> <!-- parsingResponseJSONdata.Parsing_JsonObject -->
+        </test-method> <!-- fileDownload -->
+      </class> <!-- fileUploadDownload.DownloadFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

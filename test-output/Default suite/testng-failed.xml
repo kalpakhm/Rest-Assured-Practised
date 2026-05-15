@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parsingResponseJSONdata.Parsing_JsonObject">
+      <class name="fileUploadDownload.DownloadFile">
         <methods>
-          <include name="JSONObject_total"/>
+          <include name="fileDownload"/>
         </methods>
-      </class> <!-- parsingResponseJSONdata.Parsing_JsonObject -->
+      </class> <!-- fileUploadDownload.DownloadFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
