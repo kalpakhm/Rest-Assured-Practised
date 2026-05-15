@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="fileUploadDownload.DownloadFile">
+      <class name="schema.schemaValidation">
         <methods>
-          <include name="fileDownload"/>
+          <include name="validateschema"/>
         </methods>
-      </class> <!-- fileUploadDownload.DownloadFile -->
+      </class> <!-- schema.schemaValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
