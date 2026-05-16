@@ -3,7 +3,7 @@ package pojo;
 public class Order {
 
 	public int id;
-	public int petid;
+	public int petId;
 	private int quantity;
 	String shipdate;
 	String status;
@@ -16,10 +16,10 @@ public class Order {
 		this.id = id;
 	}
 	public int getPetid() {
-		return petid;
+		return petId;
 	}
 	public void setPetid(int petid) {
-		this.petid = petid;
+		this.petId = petId;
 	}
 	public int getQuantity() {
 		return quantity;

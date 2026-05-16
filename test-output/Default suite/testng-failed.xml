@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="schema.schemaValidation">
+      <class name="pojo.OrderTest">
         <methods>
-          <include name="validateschema"/>
+          <include name="getOrderTest"/>
         </methods>
-      </class> <!-- schema.schemaValidation -->
+      </class> <!-- pojo.OrderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
