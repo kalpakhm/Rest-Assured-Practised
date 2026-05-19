@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pojo.OrderTest">
+      <class name="authorization.BacisAuth">
         <methods>
-          <include name="getOrderTest"/>
+          <include name="oauth1Example"/>
         </methods>
-      </class> <!-- pojo.OrderTest -->
+      </class> <!-- authorization.BacisAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
