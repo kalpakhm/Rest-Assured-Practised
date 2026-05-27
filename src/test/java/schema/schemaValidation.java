@@ -32,11 +32,7 @@ public class schemaValidation {
 		.body("address.city",equalTo("New York"))
 		
 		 // ✅ Array validation
-<<<<<<< HEAD
-        .body("tags.size()", greaterThan(0))
-=======
-        .body("tags.size()", greaterThan(0)) //Check that array is NOT empty size=2
->>>>>>> c9e76707067e966584525190396bf056eee0b991
+		.body("tags.size()", greaterThan(0)) //Check that array is NOT empty size=2
         .body("tags", hasItem("developer"));
 	}
 	

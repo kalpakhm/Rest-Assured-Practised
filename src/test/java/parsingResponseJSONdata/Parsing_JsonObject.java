@@ -16,7 +16,7 @@ public class Parsing_JsonObject {
 	//using JSONObject class  json and path dependencies 
 	
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void JSONObject_all() {
 		
 		Response res=
@@ -41,7 +41,7 @@ public class Parsing_JsonObject {
 		
 	}
 	
-	//@Test(priority=2)
+	@Test(priority=2)
 	//search for the name "aqua sky" in the data
 	public void JSONObject_search_name() {
 		
