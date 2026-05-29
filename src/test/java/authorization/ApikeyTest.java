@@ -1,4 +1,4 @@
-package authentication;
+package authorization;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
@@ -15,11 +15,11 @@ public class ApikeyTest {
 		String city="Bengaluru";
 		
 		given()
-		.queryParams("appid", apikey)
-		.queryParam("q", city)
+		.queryParams("appid", apikey,"q", city)
+		.pathParam("mypath", "data/2.5/weather")
 		
 		.when()
-		.get("https://api.openweathermap.org/data/2.5/weather")
+		.get("https://api.openweathermap.org/{mypath}")
 		
 		.then()
 		.body("name",equalTo(city))

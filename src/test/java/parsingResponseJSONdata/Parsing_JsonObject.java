@@ -5,6 +5,7 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static  org.hamcrest.Matchers.*;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -86,7 +87,8 @@ public class Parsing_JsonObject {
 				.get("https://reqres.in/api/products?page=1");
 			
 		
-		JSONObject jo = new JSONObject(res.asString());
+		JSONObject jo = new JSONObject(res.asString());//since response started as object
+	//	JSONArray  ja=new JSONArray(res.asString());//if  response started as array
 		
 		double total_value=0;
 		

@@ -1,4 +1,4 @@
-package authentication;
+package authorization;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
@@ -14,6 +14,23 @@ public class AuthTest {
 		
 		given()
 		.auth().preemptive().basic("postman", "password")
+		
+		.when()
+		.get("https://postman-echo.com/basic-auth")
+		
+		.then()
+		.body("authenticated", equalTo(true))
+		.statusCode(200)
+		.log().all();
+		
+		}
+	
+	@Test
+	public void testDigestAuth() {
+		
+		given()
+		.auth().digest("postman", "password")
+		
 		
 		.when()
 		.get("https://postman-echo.com/basic-auth")

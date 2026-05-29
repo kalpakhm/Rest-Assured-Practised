@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-27T23:46:56 IST" name="Default suite" finished-at="2026-05-27T23:46:57 IST" duration-ms="976">
+  <suite started-at="2026-05-29T13:35:52 IST" name="Default suite" finished-at="2026-05-29T13:35:55 IST" duration-ms="3535">
     <groups>
     </groups>
-    <test started-at="2026-05-27T23:46:56 IST" name="Default test" finished-at="2026-05-27T23:46:57 IST" duration-ms="976">
-      <class name="authentication.ApikeyTest">
-        <test-method signature="testwithapikeyqueryparam()[pri:0, instance:authentication.ApikeyTest@5bd03f44]" started-at="2026-05-27T23:46:56 IST" name="testwithapikeyqueryparam" finished-at="2026-05-27T23:46:57 IST" duration-ms="958" status="PASS">
+    <test started-at="2026-05-29T13:35:52 IST" name="Default test" finished-at="2026-05-29T13:35:55 IST" duration-ms="3535">
+      <class name="faker.FakerTest">
+        <test-method signature="petSwag()[pri:0, instance:faker.FakerTest@4efbca5a]" started-at="2026-05-29T13:35:52 IST" name="petSwag" finished-at="2026-05-29T13:35:55 IST" duration-ms="3495" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testwithapikeyqueryparam -->
-      </class> <!-- authentication.ApikeyTest -->
+        </test-method> <!-- petSwag -->
+      </class> <!-- faker.FakerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
