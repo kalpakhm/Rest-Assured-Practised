@@ -3,12 +3,14 @@ package utils;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.testng.annotations.Test;
+
 import net.datafaker.Faker;
 import pojo.User;
 
 public class UserDataPetStore {
 
-	
+	@Test
 	public static List<User> createUsers(int user_count) {
 		
 		// 👉 Create Faker object

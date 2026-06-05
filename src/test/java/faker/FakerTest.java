@@ -21,7 +21,7 @@ public class FakerTest {
 	}
 	
 	@Test
-	public static void petSwag() {
+	public static void petSwagFakedateusing() {
 		
 		List<User> users=UserDataPetStore.createUsers(2);//classname.methodname
 		
