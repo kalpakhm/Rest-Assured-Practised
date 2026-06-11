@@ -25,8 +25,8 @@ public class Users_Update {
 		
 		Faker faker =new Faker();
 		
-		String id=(String)context.getAttribute("id");
-		
+		//String id=(String)context.getAttribute("id");
+		String id=(String)context.getSuite().getAttribute("id");//available in the suite level, not in the test level
 		
 		
 		//updated body

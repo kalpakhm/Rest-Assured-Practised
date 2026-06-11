@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="apichaining.Users_Create"/>
+    </classes>
+  </test>
+   
+   <test thread-count="5" name="Test2">
+    <classes>
+      <class name="apichaining.Users_Get"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="Test3">
+    <classes>
+      <class name="apichaining.Users_Update"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="Test4">
+    <classes>
+	  <class name="apichaining.Users_Delete"/>
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->

@@ -77,7 +77,8 @@ public class Users_Create {
 		Assert.assertNotNull(projectid, "Project ID extraction failed! Response structure might have changed.");
 
 		//store project_id in context
-		context.setAttribute("id", projectid);
+		//context.setAttribute("id", projectid);//available in the test level
+		context.getSuite().setAttribute("id", projectid);//available in the suite level
 		
 		System.out.println("Extracted  ID for Chaining is : "+projectid);
 		

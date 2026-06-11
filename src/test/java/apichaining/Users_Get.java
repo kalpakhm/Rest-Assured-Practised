@@ -11,8 +11,9 @@ public class Users_Get {
 	public void get(ITestContext context) {
 		
 		String api_key="pro_956b088a9e89cf9197818cbd3bc9e4b67569cbc388f83f60";
-		String id=(String) context.getAttribute("id");
-
+		//String id=(String) context.getAttribute("id"); only available in the test level, not in the suite level
+		String id=(String) context.getSuite().getAttribute("id");//available in the suite level
+		
 	given()
 	.baseUri("https://reqres.in")
 	.basePath("/api/collections/users/records/{id}")

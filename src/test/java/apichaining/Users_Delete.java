@@ -11,7 +11,8 @@ public class Users_Delete {
 	public void delete(ITestContext context) {
 		
 		String api_key="pro_956b088a9e89cf9197818cbd3bc9e4b67569cbc388f83f60";
-		String id=(String) context.getAttribute("id");
+		//String id=(String) context.getAttribute("id");
+		String id=(String) context.getSuite().getAttribute("id");//available in the suite level
 
 		given()
 		.baseUri("https://reqres.in")
